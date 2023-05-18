@@ -12,6 +12,7 @@
   <li><a class="{{ request()->routeIs('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a></li>
   <li><a class="{{ request()->routeIs('about') ? 'active' : '' }}" href="{{ route('about') }}">About</a></li>
   <li><a class="{{ request()->routeIs('posts.create') ? 'active' : '' }}" href="{{ route('posts.create') }}">Create Post</a></li>
+  <li><a class="{{ request()->routeIs('posts2.contact') ? 'active' : '' }}" href="{{ route('posts2.contact') }}">Contact Us</a></li>
 </ul>
 
 @includeWhen($errors->any(), '_errors')
