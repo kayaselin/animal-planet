@@ -1,3 +1,8 @@
+@extends('layout')
+
+@section('title', 'List of Messages')
+
+@section('content')
 <table>
     <thead>
         <tr>
@@ -18,3 +23,4 @@
         @endforeach
     </tbody>
 </table>
+@endsection

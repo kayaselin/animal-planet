@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Create new post')
+@section('title', 'Create new message')
 
 @section('content')
 <form action="{{ route('contact.submit') }}" method="POST">
